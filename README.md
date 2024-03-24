@@ -93,13 +93,13 @@ The text above them explains the plot.
 ### Graphical User Interface (GUI)
 
 #### Data Import
-We import the data in our code using the "pandas.read_csv" method in the *generate_model* method.
+I import the data in our code using the "pandas.read_csv" method in the *generate_model* method.
 
 #### Data Reading And Analysis
 The data is analyzed after clicking on the "Start Analysis" button.
 
 #### Input Widgets And Statistical Metrics
-We use 3 different types of input widgets for 8 statistical metrics:
+I use 3 different types of input widgets for 8 statistical metrics:
 - QComboBox:
     - transmission_type: maps the transmission type of the car to our *prediction function*
     - fuel_type : maps the kind of fuel used to the *prediction function*
@@ -125,7 +125,7 @@ There are 6 plots available for user:
 - Seats Number Distribution
 
 ### Data Analysis With Pandas and Numpy
-To implement this part we used pandas 2.1.4, numpy 1.26.3 and scikit-learn 1.3.2 libraries.
+To implement this part I used pandas 2.1.4, numpy 1.26.3 and scikit-learn 1.3.2 libraries.
 
 Biggest part of this section was done during the dataset cleaning and exploration:
 - data was observed
@@ -138,7 +138,7 @@ pandas.describe(), pandars.info() libraries and scikit-learn functions m mean_sq
 ### Scikit-Learn 
 This section was implemented using LinearRegression class form scikit-learn library.
 
-We splitted dataset from "used_cars_dataset_cleaned.csv" file into 4 parts: X, y for training the model and X, y for testing the model. 
+I split the dataset from "used_cars_dataset_cleaned.csv" file into 4 parts: X, y for training the model and X, y for testing the model. 
 - X_train - 70% of rows from all columns except "Price_log"
 - X_test - remaining 30% of rows from all columns except "Price_log"
 - y_train - corresponding 70% of rows from "Price_log" column. Using it as a labels for model
