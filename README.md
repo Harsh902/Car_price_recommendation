@@ -2,9 +2,9 @@
 
 Original dataset taken from kaggle.com: [Dataset](https://www.kaggle.com/datasets/sukhmanibedi/cars4u)
 
-Cleaned dataset suitable for GUI: [Dataset](https://mygit.th-deg.de/id05260/car-price-recommendation-system/-/blob/main/used_cars_data_cleaned.csv?ref_type=heads)
+Cleaned dataset suitable for GUI: [Dataset](https://github.com/Harsh902/Car_price_recommendation/blob/main/used_cars_data_cleaned.csv)
 
-Dataset suitable for model training: [Dataset](https://mygit.th-deg.de/id05260/car-price-recommendation-system/-/blob/main/cardata_numerized.csv?ref_type=heads)
+Dataset suitable for model training: [Dataset](https://github.com/Harsh902/Car_price_recommendation/blob/main/cardata_numerized.csv)
 ## Project Description
 My project is designed to help users from India predict the approximate price of a used car according to their preferences.
 
@@ -18,11 +18,11 @@ My project is designed to help users from India predict the approximate price of
 | numpy  | 1.26.3   |
 | pandas | 2.1.4|
 | scikit-learn | 1.3.2|
-| used_cars_data_cleaned | [link](https://mygit.th-deg.de/id05260/car-price-recommendation-system/-/blob/main/used_cars_data_cleaned.csv?ref_type=heads)|
-| cardata_numerized | [link](https://mygit.th-deg.de/id05260/car-price-recommendation-system/-/blob/main/cardata_numerized.csv?ref_type=heads)|
+| used_cars_data_cleaned | [link](https://github.com/Harsh902/Car_price_recommendation/blob/main/used_cars_data_cleaned.csv)|
+| cardata_numerized | [link](https://github.com/Harsh902/Car_price_recommendation/blob/main/cardata_numerized.csv)|
 
 ## Installation
-Please download [*main.py*](https://mygit.th-deg.de/id05260/car-price-recommendation-system/-/blob/main/main.py?ref_type=heads), [*cardata_numerized.csv*](https://mygit.th-deg.de/id05260/car-price-recommendation-system/-/blob/main/cardata_numerized.csv?ref_type=heads) and [*used_cars_data_cleaned.csv*](https://mygit.th-deg.de/id05260/car-price-recommendation-system/-/blob/main/used_cars_data_cleaned.csv?ref_type=heads) files into the same folder. \
+Please download [*main.py*](https://github.com/Harsh902/Car_price_recommendation/blob/main/main.py), [*cardata_numerized.csv*](https://github.com/Harsh902/Car_price_recommendation/blob/main/cardata_numerized.csv) and [*used_cars_data_cleaned.csv*](https://github.com/Harsh902/Car_price_recommendation/blob/main/used_car_data_cleaned.csv) files into the same folder. \
 The whole project can also be downloaded as a zip file.
 
 Please install all of the required libraries to run the program successfully.
